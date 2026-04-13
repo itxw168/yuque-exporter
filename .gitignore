@@ -1,0 +1,31 @@
+# 编译产物
+build/
+dist/
+__pycache__/
+*.pyc
+
+# 输出目录
+output/
+
+# 调试文件
+debug_page.html
+
+# 日志文件
+*.log
+
+# 环境变量文件
+.env
+
+# IDE配置文件
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 操作系统文件
+Thumbs.db
+.DS_Store
+
+# 临时文件
+*.tmp
+*.temp
