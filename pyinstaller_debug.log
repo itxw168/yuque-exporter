@@ -1,0 +1,128 @@
+﻿python : 213 INFO: PyInstaller: 6.19.0, contrib hooks: 2026.4
+所在位置 行:1 字符: 1
++ python -m PyInstaller --onefile --windowed --name "语雀知识库导出工具" --debug ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (213 INFO: PyIns...b hooks: 2026.4 
+   :String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+214 INFO: Python: 3.12.0
+242 INFO: Platform: Windows-10-10.0.19045-SP0
+242 INFO: Python environment: C:\Users\Administrator\AppData\Local\Programs\Pyt
+hon\Python312
+243 INFO: wrote D:\Desktop\yuquedown\语雀知识库导出工具.spec
+245 INFO: Module search paths (PYTHONPATH):
+['D:\\Desktop\\yuquedown',
+ 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python312\\python
+312.zip',
+ 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python312\\DLLs',
+ 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python312\\Lib',
+ 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python312',
+ 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\s
+ite-packages',
+ 'D:\\Desktop\\yuquedown']
+498 INFO: checking Analysis
+498 INFO: Building Analysis because Analysis-00.toc is non existent
+498 INFO: Looking for Python shared library...
+498 INFO: Using Python shared library: C:\Users\Administrator\AppData\Local\Pro
+grams\Python\Python312\python312.dll
+498 INFO: Running Analysis Analysis-00.toc
+498 INFO: Target bytecode optimization level: 0
+498 INFO: Initializing module dependency graph...
+499 INFO: Initializing module graph hook caches...
+516 INFO: Analyzing modules for base_library.zip ...
+1307 INFO: Processing standard module hook 'hook-encodings.py' from 'C:\\Users\
+\Administrator\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages
+\\PyInstaller\\hooks'
+3653 INFO: Processing standard module hook 'hook-pickle.py' from 'C:\\Users\\Ad
+ministrator\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\P
+yInstaller\\hooks'
+4471 INFO: Processing standard module hook 'hook-heapq.py' from 'C:\\Users\\Adm
+inistrator\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\Py
+Installer\\hooks'
+4894 INFO: Caching module dependency graph...
+4936 INFO: Analyzing D:\Desktop\yuquedown\gui_app.py
+4952 INFO: Processing standard module hook 'hook-urllib3.py' from 'C:\\Users\\A
+dministrator\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\
+_pyinstaller_hooks_contrib\\stdhooks'
+5146 INFO: Processing pre-safe-import-module hook 'hook-backports.py' from 'C:\
+\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-p
+ackages\\PyInstaller\\hooks\\pre_safe_import_module'
+5147 INFO: SetuptoolsInfo: initializing cached setuptools info...
+5585 INFO: Setuptools: 'backports' appears to be a full setuptools-vendored cop
+y - creating alias to 'setuptools._vendor.backports'!
+5591 INFO: Processing standard module hook 'hook-setuptools.py' from 'C:\\Users
+\\Administrator\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-package
+s\\PyInstaller\\hooks'
+5626 INFO: Processing standard module hook 'hook-platform.py' from 'C:\\Users\\
+Administrator\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\
+\PyInstaller\\hooks'
+5628 INFO: Processing pre-safe-import-module hook 'hook-distutils.py' from 'C:\
+\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-p
+ackages\\PyInstaller\\hooks\\pre_safe_import_module'
+5674 INFO: Processing standard module hook 'hook-sysconfig.py' from 'C:\\Users\
+\Administrator\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages
+\\PyInstaller\\hooks'
+5680 INFO: Processing pre-safe-import-module hook 'hook-jaraco.py' from 'C:\\Us
+ers\\Administrator\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-pack
+ages\\PyInstaller\\hooks\\pre_safe_import_module'
+5680 INFO: Setuptools: 'jaraco' appears to be a full setuptools-vendored copy -
+ creating alias to 'setuptools._vendor.jaraco'!
+5690 INFO: Processing pre-safe-import-module hook 'hook-more_itertools.py' from
+ 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\s
+ite-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+5691 INFO: Setuptools: 'more_itertools' appears to be a setuptools-vendored cop
+y - creating alias to 'setuptools._vendor.more_itertools'!
+5823 INFO: Processing pre-safe-import-module hook 'hook-typing_extensions.py' f
+rom 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python312\\Lib
+\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+6054 INFO: Processing standard module hook 'hook-multiprocessing.util.py' from 
+'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\si
+te-packages\\PyInstaller\\hooks'
+6136 INFO: Processing standard module hook 'hook-xml.py' from 'C:\\Users\\Admin
+istrator\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyIn
+staller\\hooks'
+6389 INFO: Processing standard module hook 'hook-_ctypes.py' from 'C:\\Users\\A
+dministrator\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\
+PyInstaller\\hooks'
+6971 INFO: Processing pre-safe-import-module hook 'hook-packaging.py' from 'C:\
+\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-p
+ackages\\PyInstaller\\hooks\\pre_safe_import_module'
+7114 INFO: Processing standard module hook 'hook-setuptools._vendor.jaraco.text
+.py' from 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python31
+2\\Lib\\site-packages\\PyInstaller\\hooks'
+7115 INFO: Processing pre-safe-import-module hook 'hook-importlib_resources.py'
+ from 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python312\\L
+ib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+7489 INFO: Processing pre-safe-import-module hook 'hook-importlib_metadata.py' 
+from 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python312\\Li
+b\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+7490 INFO: Setuptools: 'importlib_metadata' appears to be a setuptools-vendored
+ copy - creating alias to 'setuptools._vendor.importlib_metadata'!
+7512 INFO: Processing standard module hook 'hook-setuptools._vendor.importlib_m
+etadata.py' from 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\P
+ython312\\Lib\\site-packages\\PyInstaller\\hooks'
+7532 INFO: Processing pre-safe-import-module hook 'hook-zipp.py' from 'C:\\User
+s\\Administrator\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packag
+es\\PyInstaller\\hooks\\pre_safe_import_module'
+7533 INFO: Setuptools: 'zipp' appears to be a setuptools-vendored copy - creati
+ng alias to 'setuptools._vendor.zipp'!
+7766 INFO: Processing pre-safe-import-module hook 'hook-tomli.py' from 'C:\\Use
+rs\\Administrator\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packa
+ges\\PyInstaller\\hooks\\pre_safe_import_module'
+7766 INFO: Setuptools: 'tomli' appears to be a setuptools-vendored copy - creat
+ing alias to 'setuptools._vendor.tomli'!
+8258 INFO: Processing pre-safe-import-module hook 'hook-wheel.py' from 'C:\\Use
+rs\\Administrator\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packa
+ges\\PyInstaller\\hooks\\pre_safe_import_module'
+8258 INFO: Setuptools: 'wheel' appears to be a setuptools-vendored copy - creat
+ing alias to 'setuptools._vendor.wheel'!
+8735 INFO: Processing standard module hook 'hook-charset_normalizer.py' from 'C
+:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site
+-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+8878 INFO: Processing standard module hook 'hook-certifi.py' from 'C:\\Users\\A
+dministrator\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\
+_pyinstaller_hooks_contrib\\stdhooks'
+8971 INFO: Processing standard module hook 'hook-PyQt6.py' from 'C:\\Users\\Adm
+inistrator\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\Py
+Installer\\hooks'
