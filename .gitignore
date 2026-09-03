@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+build/
+dist/
+*.spec
+*.log
+
+# 打包产物
+*.exe
+*.zip
+
+# IDE
+.idea/
+.vscode/
+.trae/
+*.swp
+
+# 系统
+Thumbs.db
+Desktop.ini
+.DS_Store
